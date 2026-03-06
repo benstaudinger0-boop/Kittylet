@@ -1,7 +1,7 @@
 (function () {
   const currentUser = localStorage.getItem('fooditCurrentUser');
   if (!currentUser) {
-    alert('No user is currently logged in.');
+    alert('No user is logged in.');
     return;
   }
 
